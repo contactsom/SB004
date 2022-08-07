@@ -5,3 +5,4 @@ isTrue = 10>20
 print(type(isTrue)) #bool
 print(isTrue)#false
 print("****** END- BOOLEAN ********")
+

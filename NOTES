@@ -24,6 +24,100 @@ After installation of Pycharm, Can you help us with Python Interpreter
 
 
 
+int x = 2
+int y = 2
+int z= x*y #
+
+
+Difference between a/b and a%b
+
+a/b - > returns q
+a%b -> reminder r
+
+I do not understand the way you explained the difference
+
+1. Division operator will return you quotent always as float
+Where as
+2. Floor Division (Case-1) , will return you the quotent but for respective type .
+    MEANS , IF two number are integer , quotent will come as integer
+            IF two number are float , quotent will come as float
+
+
+Every real number is perfectely divisible by 1 and itself -> Agree or not Agree
+
+
+ x = 10
+ int = 10
+
+int
+
+
+y = y + x is equivalant to y += x
+
+
+ first letter is Upper case for .py file
+ first letter is lower case for any of the variable name
+
+ x = 10
+ a = 10.8
+
+
+ x = 20
+ _x = 20
+ 12 = 30
+
+
+x = 10
+X = 10
+
+my age = 10
+
+myage = 10
+
+myage = myage + 20
+
+myage = 30
+
+
+*****************************************************
+This is valid Comment or not ? true/false
+1. # a = 10 -> true
+2. # $a= 20 -> true
+3. ## dd= 2= -> true
+4. ## a= 30 ## -> true
+5. ''' a= 20 ''' -> true
+6. #''' a= 20 ''' ->  true
+7.  '''
+
+        ''' I am some thing ''' '''9692364&*&*@(#E$@*$(*@#_)$*@$_@)$_( ''' ''' ''' '''
+
+    ''' -> true
+8 . # a = a(b -> true
+9. """  this is comment """
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

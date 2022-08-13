@@ -95,6 +95,97 @@ This is valid Comment or not ? true/false
 8 . # a = a(b -> true
 9. """  this is comment """
 
+**************************************
+Type Casting :
+
+Cloht Store -
+I need one degree C shirt ?
+Sir are you looking for one Shirt ? YES YES YES
+
+*******************************************
+IF - ELSE - IF
+
+School Days :
+Grade
+A , A+ , A++
+B , B+ , B++
+C , C+ , C++
+
+
+
+If student marks is  98 >= than grade A++
+Else IF student marks is  98 < and > 90 than grade A+
+Else IF student marks is  90 < and > 80 than grade A
+
+Decision Making : Agree ?
+
+
+
+
+
+
+
+
+
+
+
+
+transitivity Rule
+
+X > y
+AND
+y > z
+=> x > z
+
+100
+100 is grater than 90 true
+100 is grater than 80 true
+100 is grater than 70 true
+
+
+
+IF - Student 1 : 98 = A++
+IF - Student 2 : 60 = C++
+IF - Student 3 : 40 = C
+IF - Student 4 : 78 = B++
+IF - Student 5 : 55 = C++
+FAIL
+
+# Dictionary default will print key
+# With value, It Print only value
+# With items, it print one record which is key and value
+
+
+in this we can take different name other then key and value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

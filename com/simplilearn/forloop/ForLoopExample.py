@@ -72,6 +72,26 @@ for key , value in stuNameRoll.items():
 
 #what if we this for look without .items()
 
+print("___________Print Value from String Using For loop _________________")
+str1="abcdef"
+print(str1)
+for s1 in str1:
+    print(s1)
+print("___________Manually Print the String _________________")
+myString="ABCD" # 10000 Character
+
+print(myString[0]) #A
+print(myString[1]) #B
+print(myString[2]) #C
+print(myString[3]) #D
+# ==
+# A == A = true
+# B == B = true
+# C == C = true
+# A == a = false # case sencitive
+# a == a = true
+
+
 
 
 print("****** END- FOR LOOP ********")

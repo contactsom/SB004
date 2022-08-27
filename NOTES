@@ -1,4 +1,11 @@
 TODO:
+
+
+
+
+
+
+
 After installation of Pycharm, Can you help us with Python Interpreter
 
 1. Introduction of Python
@@ -161,6 +168,39 @@ String Represenataion :
     2. ''
     3. """ """
     4. ''' '''
+
+
+
+
+
+
+Filter : INPUT: Something , RESULT:out of that
+myList = [1,3,6,2,8,10] = Size 6
+FilterOutPut = [6,2,8,10] = Size 4
+Size of FilterOutPut <= size of myList
+4<6
+
+Filter : INPUT: Something , RESULT:out of that
+myList = [6,2,8,10] = Size 4
+FilterOutPut = [6,2,8,10] = Size 4
+Size of FilterOutPut <= size of myList
+4=4
+
+# Filter Size is <= to the output
+# Map Size is = to the output
+
+
+
+
+
+Q1 : You have list of Employee , You want to increase there salery with 20%
+    a- Use Map (T)
+    b- Use Filter
+
+Q2 : You have list of Employee , Find out the Male Employee ot of that
+    a- Use Map
+    b- Use Filter (T)
+
 
 
 

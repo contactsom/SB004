@@ -1,0 +1,13 @@
+INFO:root:Your Task is done
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "/Users/om/SB004/com/simplilearn/logging/LoggingExample2.py", line 9, in <module>
+    print(x/y)
+ZeroDivisionError: division by zero
+INFO:root:Your Task is done
+ERROR:root:invalid literal for int() with base 10: 'a'
+Traceback (most recent call last):
+  File "/Users/om/SB004/com/simplilearn/logging/LoggingExample2.py", line 7, in <module>
+    x = int(input("Enter First Number: "))
+ValueError: invalid literal for int() with base 10: 'a'
+INFO:root:Your Task is done

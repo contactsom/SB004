@@ -1,0 +1,10 @@
+print("This is example for LOG in python")
+print("****** START- LOG ********")
+import logging
+logging.basicConfig(filename="python.log", level=logging.WARNING)
+print("Example of Logging")
+logging.debug("I am Debug")
+logging.info("I am info")
+logging.warning("I am warning")
+logging.error("I am Error")
+logging.critical("I am critical")

@@ -1,0 +1,53 @@
+try:
+    Statement-1
+    Statement-2 //Exception Occured
+    Statement-3
+    Statement-4
+except:
+    Statement-5
+    Statement-6
+Statement-7
+
+O/P:
+    Statement-1
+    Statement-5
+    Statement-6
+    Statement-7
+
+
+*******************
+Combination :
+
+try:
+    Statement-1
+    Statement-2
+
+O/P-  Invalid
+
+***************
+try:
+    Statement-1
+    Statement-2 //Exception Occured
+except:
+    Statement-5
+    Statement-6
+
+O/P - Valid
+
+*************
+try:  with multi except
+try:
+   Statement-1
+   Statement-2
+   Statement-3
+except ZeroDivisionError:
+   Statement-4
+except ValueError:
+    Statement-5
+
+****
+except block will execute only when try block throw exception- true
+finally block shod always execute
+If except block wou't handle the exception than only try bolck will execute
+If except block wou't handle the exception than only try bolck will execute also finaly block (if exist)
+finally block should always execute untill os._exit(0) is not there before

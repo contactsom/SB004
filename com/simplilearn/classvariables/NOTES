@@ -1,0 +1,26 @@
+Three types of Variables :
+    1. Instance Variables
+    2. Static Variables
+    3. Local Variables
+There are three types of Methods allow in Class
+    1. Instance Methods
+    2. Static Methods
+    3. Local Methods
+
+    constructor
+
+
+
+# Default Constructor or ZERO Argument Constructor
+# This optional Constructor. Means
+    # 1. If developer not interested to decleare , Compiler will automatically create it
+     def __init__(self): # Constructor
+        self.name='simplilearn'
+        self.salery=50
+        self.id=101
+
+# This is Called Parametrized Constructor
+     def __init__(self,name,id,address): # Constructor
+        self.name=name
+        self.id = id
+        self.address = address

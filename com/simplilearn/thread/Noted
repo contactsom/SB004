@@ -1,0 +1,49 @@
+BANK - 10 K
+1 ATM CARD - You
+2 ATM CARD - Wife/friend
+You gota requirement to withdraw 10K
+At the same , Your "Wife/friend"  also got a requirement to withdraw 10K
+HDFC
+Recived 2 REquest at the same time to withdraw the money
+HDFC will give to whome
+    1. You
+    2. "Wife/friend"
+HDFC will Randomely pick anyone of them , given the amount
+And for second customer , "insufficent funds"
+
+
+1. Process Based
+2. Thread based
+
+
+Creating the thread in three ways
+1. Creating a Thread without using any class
+2. Creating a Thread by extending Thread class
+3. Creating a Thread without extending Thread class
+
+
+Child ThreadMAin Thread
+MAin Thread
+MAin Thread
+Child ThreadMAin Thread
+Child Thread
+Child Thread
+
+**************
+Child Thread
+Child Thread
+Child Thread
+Child Thread
+MAin Thread
+MAin Thread
+MAin Thread
+MAin Thread
+
+**********
+Child ThreadMAin Thread
+MAin Thread
+MAin Thread
+MAin Thread
+Child Thread
+Child Thread
+Child Thread

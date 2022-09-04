@@ -1,0 +1,5 @@
+#This Command will help you to start the app
+python manage.py runserver
+
+#This Command will help you to create the app with name "helloworld"
+python manage.py startapp helloworld

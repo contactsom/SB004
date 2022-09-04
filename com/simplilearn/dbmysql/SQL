@@ -1,0 +1,2 @@
+USE PYTHONDB;
+select * from Employees;

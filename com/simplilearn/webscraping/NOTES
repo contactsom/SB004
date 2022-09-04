@@ -1,0 +1,36 @@
+Prerequisite For Web Scraping :
+******************************
+
+Step 1: Install the request [Windows User]
+    1.1 Target the Directory where code is present
+    1.2 Execute the below command to install the request
+        pip install request
+    1.3 Execute the below command to un-install the request (If required)
+        pip uninstall request
+
+
+Step 1: Install the request [MAC User]
+    1.1 Target the Directory where code is present
+    1.2 Execute the below command to install the request
+        pip3 install request
+    1.3 Execute the below command to un-install the request (If required)
+        pip3 uninstall request
+
+Step 2: Install the Beautifulsoup [Windows Users]
+    2.1 Target the Directory where code is present
+    2.2 Execute the below command to install Beautifulsoup
+        pip install bs4
+    2.3 Execute the below command to un-install the Beautifulsoup (If required)
+        pip uninstall bs4
+
+Step 2: Install the Beautifulsoup [MAC Users]
+    2.1 Target the Directory where code is present
+    2.2 Execute the below command to install Beautifulsoup
+        pip3 install bs4
+    2.3 Execute the below command to un-install the Beautifulsoup (If required)
+        pip3 uninstall bs4
+
+
+
+TODO:
+Write the same data in to Excel

@@ -212,17 +212,100 @@ Q2 : You have list of Employee , Find out the Male Employee ot of that
 
 
 
+Project 1
+DESCRIPTION
+Many patients visit AB Hospital for a routine health checkup, accidental injuries or any other ailment treatment.
+Each patient has to register with the hospital if they are visiting the hospital for the first time.
+So, it gets very difficult for the reception boy Suresh to manage the records of every patient in a logbook manually
+ as if the user has already registered he has to search the patient’s name throughout the book containing thousands of records.
+
+Objective: To dlop an application in Django that checks if the patient is already registered and registers the patient
+if they’re not.
 
 
 
+Project 2
+DESCRIPTION
+Zara is developing a new version of password manager. Earlier,
+she was using some third-party password manager but she figured out that it can't keep track of all the passwords
+which has been set for the respective account. As she is very concerned about the security,
+she decided to develop her own version of the password manager
+Objective: To develop a custom password manager using Python
+
+Domain:  Security
+Steps to perform:
+Implement the following design
+class BasePasswordManager
+    members
+        old_passwords: is a list that holds all of the user's past  passwords.
+                           The last item of the list is the user's current password.
+    methods
+        get_password method that returns the current password as a string.
+
+        is_correct method that receives a string and returns a boolean
+             True or False depending on whether the string is equal to
+             the current password or not.
+
+class PasswordManager
+    This class inherits from BasePasswordManager
+
+        methods
+        set_password method that sets the user's password.
+             Password change is successful only if:
+                    - Security level of the new password is greater.
+                    -
+
+Project 3
+DESCRIPTION
+Implement a Python decorator that should take whatever the decorated function returns, and write it to a file
+in a new line. For the sake of this problem, let us assume that the decorated functions always return a string.
+ The decorator should be named log_message and should write to the file /tmp/decorator_logs.txt.
+Objective: To develop a Python decorator
+
+Steps to perform:
+Implement the following design
+@log_message
+def a_function_that_returns_a_string():
+      return "A string"
+@log_message
+def a_function_that_returns_a_string_with_newline(s):
+      return "{}\n".format(s)
+@log_message
+def a_function_that_returns_another_string(string=""):
+            return "Another string"
 
 
+Project 4
+DESCRIPTION
+Create a desktop python app that, can provide the advanced functionalities that are not generally available in the default calendar module.
+When run, the application should be able to ascertain the current day, date, month and year using the existing modules
+(Ex. Calendar) but the rest of the functionalities should be purely computed based on the algorithm and the flow of thoughts captured in the problem statement.
+The application expects the learners to compute a future calendar (future month, for that date) or a past calendar (past month) of the given date (today).
+The application building expects the users to use their knowledge of Python using features such as Python Shell, Python list and sets, dictionary, formatting, utilities, calendar (for verification), geocoder (for lat and long), ‘os ’and ‘sys ’ and usual program control flow structures.
+The application design should follow the below guidelines:
 
-
-
-
-
-
+Health Tracker
+Project 5
+DESCRIPTION
+Lyka, the sporting shoe company, approaches you to create a simple python app that helps in tracking workouts,
+energy (or calories) burnt, BMI, weekly rewards, monthly rewards, fastest week, slowest month, etc.
+Some of the features are shown below.
+The application will accept the following initial inputs from any user:
+Name, Age, Sex, Weight, Height
+You should be able to use either the FPS or Metric system with regards to weight and height.
+The app should accept the next set of inputs, which are:
+Day
+Number of steps
+Time taken (hours:minutes: seconds)
+You can provide a number of inputs based on the following: Assumptions: Day = 1 for Monday, Day = 2 for Tuesday, etc.
+Sample Input and Output
+A typical 1-week sample input of 7 days will have the following input:
+1, 7500, 1:02:05
+2, 8500, 1:06:12
+3, 3500, 0:52:25
+4, 4250, 0:59:35
+5, 7800, 1:01:55
+6, 8500, 1:12:15
 
 
 

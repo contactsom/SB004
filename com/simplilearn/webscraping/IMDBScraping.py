@@ -6,6 +6,7 @@ try:
     #status=source.raise_for_status()
     soup=BeautifulSoup(source.text,'html.parser')
     movies=soup.find('tbody',class_="lister-list").find_all('tr')
+    f = open("IMDB.txt", 'a')
 
     for movie in movies:
        rank= movie.find('td',class_="titleColumn").get_text(strip=True).split('.')[0]
@@ -17,7 +18,6 @@ try:
        rating = movie.find('td', class_="ratingColumn imdbRating").strong.text
        #print(rating)
        print(rank,name,year,rating)
-       f=open("IMDB.txt",'a')
        f.write(rank)
        f.write(" ")
        f.write(name)

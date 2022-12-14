@@ -1,6 +1,6 @@
 import rlcompleter
 my_completer = rlcompleter.Completer()
-phrase_list = ['co', 'sys.m', 'cal']
+phrase_list = ['co', 'sys.m', 'cal','brea','excep','finall']
 for phrase in phrase_list:
    print(phrase + ' (TAB): ', end='')
    try:
